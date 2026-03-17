@@ -9,8 +9,9 @@ marvel_movies = {
 }
 
 # Write your code here
+# Does not raise an error if the element is not found; it simply leaves the set unchanged.
 marvel_movies.discard("The Dark Knight")
-
+# Raises a keyError if the element is not in the set.
 marvel_movies.remove("Justice League")
 
 # Testing
